@@ -6,3 +6,9 @@ kitti数据集转yolov3格式：https://blog.csdn.net/qq583083658/article/detail
 https://blog.csdn.net/duanyajun987/article/details/83309474
 
 https://www.cnblogs.com/xieqi/p/9818056.html
+
+
+
+
+计算mAP：
+python2 reval_voc.py --voc_dir VOCdevkit --year 2007 --image_set test --classes data/kitti.names output

@@ -15,3 +15,6 @@ https://www.cnblogs.com/xieqi/p/9818056.html
 
 计算mAP：
 python2 reval_voc.py --voc_dir VOCdevkit --year 2007 --image_set test --classes data/kitti.names output
+
+
+https://www.aiuai.cn/aifarm837.html

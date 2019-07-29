@@ -18,3 +18,11 @@ python2 reval_voc.py --voc_dir VOCdevkit --year 2007 --image_set test --classes 
 
 
 https://www.aiuai.cn/aifarm837.html
+
+
+模型剪枝：
+python sparsity_train.py --image_folder data/kitti.data --cfg cfg/prune_yolov3-kitti.cfg --weights backup/prune_yolov3-kitti_30000.weights
+
+
+
+python new_prune.py --cfg cfg/yolov3-kitti.cfg --weights backup/yolov3-kitti_30000.weights
